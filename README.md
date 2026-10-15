@@ -6,13 +6,17 @@ Product analytics on Google Analytics 4 event data from the Google Merchandise S
 
 ## Key findings
 
-> Fill this in after running the queries (see `results/SUMMARY.md`). Write 4–6 bullets, each as a number plus what the business should do about it. Example format:
-> - **Only X% of shoppers who add to cart complete the purchase.** Biggest drop is at checkout, so the checkout flow is the first thing to test.
+Google Merchandise Store, Nov 2020 – Jan 2021: 360,129 sessions, 4,848 of which ended in a purchase (1.35%), and $362K in revenue. The best single day was Cyber Monday (Nov 30) at $12.0K.
 
-- 
-- 
-- 
-- 
+- **The biggest leak is at the very top.** 78.6% of sessions never view a single product. Of sessions that add to cart, 81% don't buy, but once checkout starts nearly half (47.8%) complete it. Getting visitors to a product page matters more than fixing checkout.
+- **Returning visitors are worth 9× new ones.** Visitors on their 4th+ session convert at 4.69%, vs 0.68% on a first visit, and bring in $4.08 per session vs $0.47. Email capture and remarketing are the clearest growth levers.
+- **Most sessions are bounces.** 53.6% of sessions last under 10 seconds and essentially never convert. Sessions of 10+ minutes convert at 28.3%. Engagement time is a strong signal for which visitors to retarget.
+- **Mobile is not the problem.** Mobile converts as well as desktop (1.39% vs 1.32%, cart-to-purchase 32.8% vs 31.3%). A mobile redesign wouldn't be justified by this data.
+- **One viral page brings traffic, not sales.** The Google Dino Game T-shirt page landed 18,449 sessions, but 58.5% left after one page and only 0.02% bought, vs 1.78% for visitors landing on the homepage. Traffic numbers alone would make this page look like a success.
+- **Buyers decide fast, and holiday shoppers don't come back.** 63.8% of buyers purchase on their first day. Only 2.5% of late-December visitors returned the next week, vs 6.3% of early-November visitors, so holiday traffic needs a plan to bring people back after the season.
+- **Paid search earns the least per visitor.** Google ads brought $0.75 per user and 2.8% of revenue, vs $0.96 per user from organic search, which brought 24.1%.
+
+_Google obfuscates parts of this sample: some traffic sources show as "(data deleted)" or "<Other>", and some item quantities are scrambled. Category-level cart abandonment (Q6) was rebuilt to count events instead of quantities, but categories still come out at 87–99% abandonment, too flat to rank reliably._
 
 ## Business questions
 

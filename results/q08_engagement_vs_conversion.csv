@@ -1,0 +1,6 @@
+engagement_bucket,sessions,share_of_sessions_pct,avg_page_views,conversion_pct
+1. Under 10 sec,192961,53.6,1.3,0.0
+2. 10-60 sec,94646,26.3,2.5,0.01
+3. 1-3 min,39368,10.9,5.5,0.7
+4. 3-10 min,23878,6.6,11.4,8.12
+5. 10+ min,9276,2.6,40.4,28.27

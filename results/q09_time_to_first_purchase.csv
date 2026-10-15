@@ -1,0 +1,6 @@
+time_to_purchase,buyers,share_of_buyers_pct,cumulative_pct
+1. Same day,2820,63.8,63.8
+2. 1-3 days,447,10.1,73.9
+3. 4-7 days,297,6.7,80.7
+4. 8-30 days,647,14.6,95.3
+5. 31+ days,208,4.7,100.0
